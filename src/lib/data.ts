@@ -63,8 +63,8 @@ export const projects: Project[] = [
   {
     title: "UseItUp",
     description:
-      "My current project. (Add a one-line description of what UseItUp does here.)",
-    tags: ["TypeScript", "React", "Node.js"],
+      "A cross-platform pantry app that tracks your ingredients, flags food that's about to expire, and turns what you already have into recipe ideas. Built with Expo/React Native and a Supabase backend (PostgreSQL with row-level security and authenticated accounts), with Gemini-powered recipe generation.",
+    tags: ["TypeScript", "React Native", "Expo", "Supabase", "Gemini"],
     github: "https://github.com/Stanley9986/UseItUp",
     demo: null,
     featured: true,
