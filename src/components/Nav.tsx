@@ -1,4 +1,5 @@
 import { profile } from "@/lib/data";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "#about", label: "About", index: "01" },
@@ -32,6 +33,7 @@ export default function Nav() {
               {link.label}
             </a>
           ))}
+          <ThemeToggle />
         </div>
       </nav>
     </header>

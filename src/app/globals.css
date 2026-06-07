@@ -4,7 +4,23 @@
    ENGINEERING DRAFTING PAPER — editorial × technical schematic
    ========================================================================= */
 
+/* Light theme (default) */
 :root {
+  color-scheme: light;
+  --paper: #f4efe2;
+  --paper-2: #e9e1cf;
+  --ink: #1d1a16;
+  --ink-soft: #4c463b;
+  --muted: #8a8270;
+  --line: rgba(29, 26, 22, 0.18);
+  --line-soft: rgba(29, 26, 22, 0.05);
+  --accent: #d6451b;
+  --accent-deep: #b6390f;
+}
+
+/* Dark theme */
+.dark {
+  color-scheme: dark;
   --paper: #141210;
   --paper-2: #1d1a16;
   --ink: #ece5d6;
